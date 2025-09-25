@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishnan Nair</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 40px;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #1a1a1a;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #666;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        
+        .bio {
+            font-size: 1.1rem;
+            color: #444;
+            margin-bottom: 30px;
+        }
+        
+        .links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .links a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .links a:hover {
+            text-decoration: underline;
+        }
+        
+        .section {
+            margin-bottom: 50px;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+        
+        .posts {
+            list-style: none;
+        }
+        
+        .post-item {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .post-item:last-child {
+            border-bottom: none;
+        }
+        
+        .post-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .post-title a {
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+        
+        .post-title a:hover {
+            color: #0066cc;
+        }
+        
+        .post-excerpt {
+            color: #666;
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+        
+        .post-meta {
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        .experience-item {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .experience-item:last-child {
+            border-bottom: none;
+        }
+        
+        .job-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 4px;
+        }
+        
+        .company {
+            color: #666;
+            margin-bottom: 4px;
+        }
+        
+        .duration {
+            color: #999;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+        
+        .job-description {
+            color: #555;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .skill-tag {
+            background: #f5f5f5;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        footer {
+            border-top: 1px solid #eee;
+            padding-top: 40px;
+            margin-top: 60px;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 15px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .links {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Krishnan Nair</h1>
+        <div class="subtitle">Software Engineer & Writer</div>
+        <div class="bio">I build things and write about technology, product strategy, and the future of work. Currently working on interesting projects at the intersection of AI and human creativity.</div>
+        <div class="links">
+            <a href="mailto:krishnan@example.com">Email</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="#">GitHub</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2>Recent Writing</h2>
+            <ul class="posts">
+                <li class="post-item">
+                    <div class="post-title"><a href="#">The Future of Remote Development Teams</a></div>
+                    <div class="post-excerpt">How distributed teams are reshaping software development, and what it means for the next decade of tech careers.</div>
+                    <div class="post-meta">December 15, 2024 • 8 min read</div>
+                </li>
+                <li class="post-item">
+                    <div class="post-title"><a href="#">Building Products Users Actually Want</a></div>
+                    <div class="post-excerpt">Lessons learned from shipping three products that failed, and one that didn't.</div>
+                    <div class="post-meta">November 28, 2024 • 12 min read</div>
+                </li>
+                <li class="post-item">
+                    <div class="post-title"><a href="#">AI Tools I Actually Use Every Day</a></div>
+                    <div class="post-excerpt">A pragmatic look at which AI tools have earned a permanent spot in my workflow.</div>
+                    <div class="post-meta">November 10, 2024 • 6 min read</div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <div class="job-title">Senior Software Engineer</div>
+                <div class="company">Tech Startup Inc.</div>
+                <div class="duration">Jan 2023 - Present</div>
+                <div class="job-description">Leading product development for our core platform. Built the team from 2 to 8 engineers while scaling to 100k+ users.</div>
+            </div>
+            <div class="experience-item">
+                <div class="job-title">Product Manager</div>
+                <div class="company">Previous Company</div>
+                <div class="duration">Mar 2021 - Dec 2022</div>
+                <div class="job-description">Shipped three major product releases that increased user engagement by 40%. Managed cross-functional teams.</div>
+            </div>
+            <div class="experience-item">
+                <div class="job-title">Software Developer</div>
+                <div class="company">First Job Corp</div>
+                <div class="duration">Jun 2019 - Feb 2021</div>
+                <div class="job-description">Full-stack development on customer-facing applications. Learned React, Node.js, and how to ship code fast.</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Skills & Tools</h2>
+            <div class="skills">
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">AWS</span>
+                <span class="skill-tag">Product Management</span>
+                <span class="skill-tag">Team Leadership</span>
+                <span class="skill-tag">Technical Writing</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built with curiosity and caffeine. Last updated September 2025.</p>
+    </footer>
+
+    <script>
+        // Simple click tracking
+        document.addEventListener('click', function(e) {
+            if (e.target.tagName === 'A') {
+                console.log('Clicked:', e.target.href || e.target.textContent);
+            }
+        });
+        
+        // Add some hover effects
+        const postTitles = document.querySelectorAll('.post-title a');
+        postTitles.forEach(title => {
+            title.addEventListener('mouseenter', function() {
+                this.style.transition = 'color 0.2s ease';
+            });
+        });
+    </script>
+</body>
+</html>
