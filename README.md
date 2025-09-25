@@ -63,7 +63,7 @@ This site is designed to be deployed anywhere static sites are supported:
 
 ## Contact
 
-- **Email**: hello@krishnannair.com
+- **Email**: [Coming soon]
 - **LinkedIn**: [Coming soon]
 - **Twitter**: [Coming soon]
 
