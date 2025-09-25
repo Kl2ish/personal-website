@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Krishnan Nair</title>
+    <title>Krishnan Nair - Coming Soon</title>
     <style>
         * {
             margin: 0;
@@ -16,39 +16,40 @@
             line-height: 1.6;
             color: #333;
             background: #fff;
-            max-width: 680px;
-            margin: 0 auto;
-            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
         }
         
-        header {
-            border-bottom: 1px solid #eee;
-            padding-bottom: 40px;
-            margin-bottom: 40px;
+        .container {
+            text-align: center;
+            max-width: 500px;
         }
         
         h1 {
             font-size: 2.5rem;
             font-weight: 700;
-            margin-bottom: 8px;
+            margin-bottom: 16px;
             color: #1a1a1a;
         }
         
         .subtitle {
             font-size: 1.2rem;
             color: #666;
-            font-weight: 400;
-            margin-bottom: 20px;
+            margin-bottom: 24px;
         }
         
-        .bio {
+        .message {
             font-size: 1.1rem;
             color: #444;
-            margin-bottom: 30px;
+            margin-bottom: 32px;
         }
         
         .links {
             display: flex;
+            justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
         }
@@ -63,362 +64,42 @@
             text-decoration: underline;
         }
         
-        .section {
-            margin-bottom: 50px;
-        }
-        
-        h2 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 20px;
-            color: #1a1a1a;
-        }
-        
-        .posts {
-            list-style: none;
-        }
-        
-        .post-item {
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #f0f0f0;
-        }
-        
-        .post-item:last-child {
-            border-bottom: none;
-        }
-        
-        .post-title {
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-bottom: 8px;
-        }
-        
-        .post-title a {
-            color: #1a1a1a;
-            text-decoration: none;
-        }
-        
-        .post-title a:hover {
-            color: #0066cc;
-        }
-        
-        .post-excerpt {
-            color: #666;
-            font-size: 1rem;
-            margin-bottom: 8px;
-        }
-        
-        .post-meta {
-            color: #999;
-            font-size: 0.9rem;
-        }
-        
-        .experience-item {
-            margin-bottom: 30px;
-            padding-bottom: 25px;
-            border-bottom: 1px solid #f0f0f0;
-        }
-        
-        .experience-item:last-child {
-            border-bottom: none;
-        }
-        
-        .job-title {
-            font-weight: 600;
-            font-size: 1.1rem;
-            margin-bottom: 4px;
-        }
-        
-        .company {
-            color: #666;
-            margin-bottom: 4px;
-            font-weight: 500;
-        }
-        
-        .duration {
-            color: #999;
-            font-size: 0.9rem;
-            margin-bottom: 8px;
-        }
-        
-        .job-description {
-            color: #555;
-            margin-bottom: 12px;
-        }
-        
-        .job-highlights {
-            list-style: none;
-            margin-left: 0;
-        }
-        
-        .job-highlights li {
-            color: #555;
-            margin-bottom: 6px;
-            padding-left: 16px;
-            position: relative;
-        }
-        
-        .job-highlights li::before {
-            content: "•";
-            color: #0066cc;
-            position: absolute;
-            left: 0;
-        }
-        
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-        
-        .skill-tag {
-            background: #f5f5f5;
-            padding: 4px 12px;
-            border-radius: 20px;
+        .preview-access {
+            margin-top: 32px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
             font-size: 0.9rem;
             color: #666;
-        }
-        
-        .education-item {
-            margin-bottom: 20px;
-        }
-        
-        .degree {
-            font-weight: 600;
-            font-size: 1.1rem;
-            margin-bottom: 2px;
-        }
-        
-        .school {
-            color: #666;
-            margin-bottom: 2px;
-        }
-        
-        .edu-duration {
-            color: #999;
-            font-size: 0.9rem;
-        }
-        
-        footer {
-            border-top: 1px solid #eee;
-            padding-top: 40px;
-            margin-top: 60px;
-            text-align: center;
-            color: #999;
-            font-size: 0.9rem;
         }
         
         @media (max-width: 600px) {
-            body {
-                padding: 20px 15px;
-            }
-            
             h1 {
                 font-size: 2rem;
             }
             
             .links {
                 flex-direction: column;
-                gap: 10px;
+                gap: 12px;
             }
         }
     </style>
 </head>
 <body>
-    <header>
+    <div class="container">
         <h1>Krishnan Nair</h1>
         <div class="subtitle">Senior Product Leader & Fintech Executive</div>
-        <div class="bio">I build products that transform how institutions interact with digital assets and data intelligence. Currently Senior VP of Product at 21.CO, focused on cryptocurrency and blockchain products that bridge traditional finance with decentralized ecosystems.</div>
+        <div class="message">
+            Website launching soon. Building something thoughtful about product leadership, fintech, and the future of digital assets.
+        </div>
         <div class="links">
             <a href="mailto:hello@krishnannair.com">Email</a>
             <a href="#">LinkedIn</a>
             <a href="#">Twitter</a>
-            <a href="#">GitHub</a>
         </div>
-    </header>
-
-    <main>
-        <section class="section">
-            <h2>Recent Writing</h2>
-            <ul class="posts">
-                <li class="post-item">
-                    <div class="post-title"><a href="#">Building BlockSensai: AI-Powered Risk Intelligence for DeFi</a></div>
-                    <div class="post-excerpt">How we launched an AI platform that helps institutional investors navigate protocol risks and make data-driven decisions in decentralized finance.</div>
-                    <div class="post-meta">September 20, 2025 • 12 min read</div>
-                </li>
-                <li class="post-item">
-                    <div class="post-title"><a href="#">From Traditional Finance to Crypto: Lessons in Product Leadership</a></div>
-                    <div class="post-excerpt">Reflections on leading product teams across fintech, streaming video, and now cryptocurrency - what stays the same and what changes everything.</div>
-                    <div class="post-meta">September 5, 2025 • 8 min read</div>
-                </li>
-                <li class="post-item">
-                    <div class="post-title"><a href="#">The Data Integration Challenge: Scaling Digital Asset Platforms</a></div>
-                    <div class="post-excerpt">How repositioning our digital asset platform drove significant growth and what I learned about product-market fit in institutional fintech.</div>
-                    <div class="post-meta">August 28, 2025 • 10 min read</div>
-                </li>
-            </ul>
-        </section>
-
-        <section class="section">
-            <h2>Experience</h2>
-            
-            <div class="experience-item">
-                <div class="job-title">Senior Vice President of Product Management</div>
-                <div class="company">21.CO</div>
-                <div class="duration">Feb 2025 - Present • New York City, NY</div>
-                <div class="job-description">Leading development of newly formed product-led growth initiatives with a lean team of 6 PMs, designers, and data scientists, driving 0→1 innovation across enterprise risk intelligence platforms & retail Bitcoin-yield products.</div>
-                <ul class="job-highlights">
-                    <li>Launched 'BlockSensai', an AI-powered risk intelligence platform (Alpha released June 2025) onboarding institutional users and solving protocol data fragmentation with compliant, reliable decision-making insights</li>
-                    <li>Incubating 'Project Yield' (Q4 Alpha), a savings app simplifying Bitcoin yield generation by automating strategies for mainstream users</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-title">Vice President of Product Management</div>
-                <div class="company">21.CO</div>
-                <div class="duration">Feb 2023 - Feb 2025</div>
-                <ul class="job-highlights">
-                    <li>Led a team of 10 product managers, designers, and data scientists developing fintech products including crypto investment management, operations, customer experience, and data platforms</li>
-                    <li>Repositioned 'Onyx' Digital Asset SaaS Platform, optimizing ETF and token trade lifecycle through automated back-office functions, unified accounting ledger, and advanced data insights</li>
-                    <li>Launched '21.co Tokens' as a 0-to-1 DeFi product, establishing cost-efficient cross-chain wrapped asset offering within Ethereum and Solana ecosystems</li>
-                    <li>Led development of crypto neobank '21.co Business Account', enabling enterprise crypto services with integrated KYC/AML and fiat conversion capabilities</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-title">Product Director, Platforms</div>
-                <div class="company">21.CO</div>
-                <div class="duration">June 2022 - Jan 2023</div>
-                <ul class="job-highlights">
-                    <li>Launched 'Datahub', an internal insights platform aggregating traditional and decentralized financial sources, enabling portfolio managers to perform back-testing and generate actionable signals</li>
-                    <li>Implemented ML capabilities with data scientists to develop comprehensive dashboard with staking utilization model, providing real-time staking yield insights</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-title">Vice President of Data Integrations</div>
-                <div class="company">Conviva</div>
-                <div class="duration">Oct 2021 - May 2022 • San Francisco, CA</div>
-                <ul class="job-highlights">
-                    <li>GM overseeing a team of 25 dedicated to enhancing customer onboarding and product adoption experiences for Conviva products</li>
-                    <li>Directed product strategy for data integration and quality tools, establishing Conviva as the premier source for online video and ad measurement</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-title">Principal Product Manager, Developer Platform & Tools</div>
-                <div class="company">Conviva</div>
-                <div class="duration">Jan 2021 - Oct 2021</div>
-                <ul class="job-highlights">
-                    <li>Released 'Application Manager', consolidating three existing products to streamline customer onboarding for 80 enterprise clients, achieving 75% reduction in integration time</li>
-                    <li>Optimized product reviews with ecosystem partners (Google, Apple, Roku, etc.) ensuring seamless integration across mobile and streaming devices, achieving 99.9% uptime</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-title">Senior Director, Product Integration</div>
-                <div class="company">Conviva</div>
-                <div class="duration">Apr 2020 - Jan 2021 • London, UK</div>
-                <ul class="job-highlights">
-                    <li>Led a global team of 20 program managers, integration engineers, and quality engineers, ensuring seamless product integration for the SaaS platform</li>
-                    <li>Served as primary product escalation point for Tier 1 customers, overcoming technical challenges and enhancing customer satisfaction</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-title">Director, Product Integration</div>
-                <div class="company">Conviva</div>
-                <div class="duration">Nov 2017 - Mar 2020 • New York, NY</div>
-                <ul class="job-highlights">
-                    <li>Led a global team of 7, introducing PMO function that streamlined processes and reduced customer onboarding timelines from 12 weeks to 2 weeks</li>
-                    <li>Launched product pricing overhaul and drove professional services pricing initiatives</li>
-                    <li>Pivoted department from cost-center to profit-generating entity by devising implementation service offering and restructuring team to address customer onboarding issues</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-title">Head of Delivery, North America</div>
-                <div class="company">Accedo.TV</div>
-                <div class="duration">Nov 2015 - Oct 2017 • New York, NY</div>
-                <ul class="job-highlights">
-                    <li>Responsible for product delivery services across North America with 10 direct reports of program managers and engineers</li>
-                    <li>Led global team for product development of web, mobile, and living room device applications for premier video services such as HBO Go, WWE, Showtime, NBCU</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-title">Product Solution Analyst</div>
-                <div class="company">Samsung Electronics America</div>
-                <div class="duration">Apr 2010 - Apr 2012 • Ridgefield Park, NJ</div>
-                <ul class="job-highlights">
-                    <li>Monitored and analyzed Samsung Smart TV platform usage metrics, contributing to significant growth in app viewership</li>
-                    <li>Collaborated as technical product owner for launching applications such as Netflix, Hulu, Blockbuster, and Amazon Prime on Samsung app store</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2>Education</h2>
-            <div class="education-item">
-                <div class="degree">MBA, Executive Program</div>
-                <div class="school">Columbia Business School</div>
-                <div class="edu-duration">2017-2019 • New York, NY</div>
-            </div>
-            <div class="education-item">
-                <div class="degree">MS, Computer Engineering</div>
-                <div class="school">Boston University</div>
-                <div class="edu-duration">2008-2010 • Boston, MA</div>
-            </div>
-            <div class="education-item">
-                <div class="degree">BE, Electronics Engineering</div>
-                <div class="school">V.E.S. Institute of Technology</div>
-                <div class="edu-duration">2004-2008 • Mumbai, India</div>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2>Skills & Expertise</h2>
-            <div class="skills">
-                <span class="skill-tag">Product Strategy</span>
-                <span class="skill-tag">Fintech & DeFi</span>
-                <span class="skill-tag">Data Platforms</span>
-                <span class="skill-tag">AI/ML Products</span>
-                <span class="skill-tag">Team Leadership</span>
-                <span class="skill-tag">0-to-1 Innovation</span>
-                <span class="skill-tag">SaaS Platforms</span>
-                <span class="skill-tag">Risk Intelligence</span>
-                <span class="skill-tag">Cryptocurrency</span>
-                <span class="skill-tag">P&L Management</span>
-                <span class="skill-tag">Enterprise Sales</span>
-                <span class="skill-tag">Digital Assets</span>
-                <span class="skill-tag">Cross-chain Tech</span>
-                <span class="skill-tag">Video Streaming</span>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>Built with curiosity and conviction. Last updated September 2025.</p>
-    </footer>
-
-    <script>
-        // Simple analytics tracking
-        document.addEventListener('click', function(e) {
-            if (e.target.tagName === 'A') {
-                console.log('Clicked:', e.target.href || e.target.textContent);
-            }
-        });
-        
-        // Add smooth scrolling for better UX
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
+        <div class="preview-access">
+            <strong>Preview Access:</strong> Contact me directly for early access to content and portfolio details.
+        </div>
+    </div>
 </body>
 </html>
