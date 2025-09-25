@@ -20,6 +20,7 @@ This is my personal website built with a simple, content-focused design inspired
 - CSS3 (with CSS Grid and Flexbox)
 - Vanilla JavaScript
 - No frameworks or dependencies
+- Claude Vibe Coding
 
 ## Experience Highlights
 
